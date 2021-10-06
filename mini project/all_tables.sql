@@ -1,7 +1,7 @@
-
+CREATE database fyp;
 use fyp;
-CREATE TABLE rabia(
-   sno int NOT NULL AUTO_INCREMENT,
+CREATE TABLE students(
+    sno int NOT NULL AUTO_INCREMENT,
     groupleader VARCHAR(300),
     institution VARCHAR(300),
     nameofdp varchar(300),
